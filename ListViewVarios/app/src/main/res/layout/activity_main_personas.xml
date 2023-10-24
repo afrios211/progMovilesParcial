@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040000"
+    tools:context=".MainActivityPersonas">
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:hint="ingrese nombre"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextApellidos"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="68dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:hint="ingrese apellidos"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEdad"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:hint="edad"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSexo"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="68dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:hint="sexo"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDireccion"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="108dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:hint="direccion"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listViewPersonas"
+        android:layout_width="389dp"
+        android:layout_height="327dp"
+        android:layout_marginTop="236dp"
+        android:background="#FDFDFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextUrlImagen"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="152dp"
+        android:background="#FDFDFD"
+        android:ems="10"
+        android:hint="url imagen"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonIngresar2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/info_shape"
+        android:backgroundTint="#DA00FF"
+        android:text="INGRESAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRegresar2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="572dp"
+        android:background="@drawable/info_shape"
+        android:backgroundTint="#00FBE4"
+        android:text="REGRESAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTelefono"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="108dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FBFBFB"
+        android:ems="10"
+        android:hint="telefono"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
